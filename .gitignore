@@ -86,3 +86,6 @@ tags
 # IDE
 .idea/
 .c9/
+
+# build
+/lib

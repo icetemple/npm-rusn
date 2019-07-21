@@ -6,7 +6,8 @@
   "types": "./lib/index.d.ts",
   "scripts": {
     "test": "jest",
-    "prepublishOnly": "tsc"
+    "prepublishOnly": "tsc",
+    "report-coverage": "cat coverage/lcov.info | coveralls"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
   "homepage": "https://github.com/icetemple/npm-rusn#readme",
   "devDependencies": {
     "@types/jest": "^24.0.15",
+    "coveralls": "^3.0.5",
     "jest": "^24.8.0",
     "ts-jest": "^24.0.2",
     "typescript": "^3.5.3"
