@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/icetemple/npm-rusn.svg?branch=master)](https://travis-ci.org/icetemple/npm-rusn)
+
 # npm-rusn
 Portable from python package small library for getting russian text with singular and plural forms
 
