@@ -1,0 +1,35 @@
+{
+  "name": "rusn",
+  "version": "1.0.0",
+  "description": "Portable from python package small library for getting russian text with singular and plural forms",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "prepublishOnly": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icetemple/npm-rusn.git"
+  },
+  "keywords": [
+    "gettext",
+    "ngettext",
+    "russian",
+    "plural-form",
+    "singular-form",
+    "icetemple"
+  ],
+  "author": "Dmitriy Pleshevskiy <dmitriy@ideascup.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/icetemple/npm-rusn/issues"
+  },
+  "homepage": "https://github.com/icetemple/npm-rusn#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.15",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.3"
+  }
+}
