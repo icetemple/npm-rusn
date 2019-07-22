@@ -87,5 +87,6 @@ tags
 .idea/
 .c9/
 
-# build
-/lib
+# build artifacts
+src/**/*.js
+src/**/*.d.ts

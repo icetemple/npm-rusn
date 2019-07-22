@@ -1,10 +1,16 @@
 {
   "name": "rusn",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Portable from python package small library for getting russian text with singular and plural forms",
-  "main": "./lib/index.js",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
   "readme": "README.md",
-  "types": "./lib/index.d.ts",
+  "files": [
+    "src",
+    "!*.spec.ts",
+    "!*.ts",
+    "*.d.ts"
+  ],
   "scripts": {
     "test": "jest",
     "prepublishOnly": "tsc",

@@ -12,9 +12,11 @@
     "noImplicitThis": true,
     "noUnusedParameters": true,
     "strictNullChecks": true,
-    "outDir": "./lib"
+    "outDir": "./src"
   },
-  "include": [
-    "src/**/*"
+  "exclude": [
+    "node_modules",
+    "coverage",
+    "tests"
   ]
 }
