@@ -1,6 +1,6 @@
 
 
-type Forms = [string, string, string] | string
+export type Forms = [string, string, string] | string
 
 
 export const rusNGetText = (number: number, forms: Forms): string => {
