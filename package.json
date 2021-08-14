@@ -2,19 +2,13 @@
   "name": "rusn",
   "version": "1.0.5",
   "description": "Portable from python package small library for getting russian text with singular and plural forms",
-  "main": "./src/index.js",
-  "types": "./src/index.d.ts",
+  "type": "module",
+  "main": "./rusn.mjs",
+  "types": "./rusn.d.ts",
   "readme": "README.md",
-  "files": [
-    "src",
-    "!*.spec.ts",
-    "!*.ts",
-    "*.d.ts"
-  ],
   "scripts": {
-    "test": "jest",
-    "prepublishOnly": "tsc",
-    "report-coverage": "cat coverage/lcov.info | coveralls"
+    "test": "deno test --coverage=coverage tests",
+    "report-coverage": "deno coverage --lcov | coveralls"
   },
   "repository": {
     "type": "git",
@@ -35,10 +29,6 @@
   },
   "homepage": "https://github.com/icetemple/npm-rusn#readme",
   "devDependencies": {
-    "@types/jest": "^24.9.1",
-    "coveralls": "^3.0.11",
-    "jest": "^24.9.0",
-    "ts-jest": "^24.3.0",
-    "typescript": "^3.8.3"
+    "coveralls": "^3.1.1"
   }
 }
