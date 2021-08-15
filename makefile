@@ -7,10 +7,10 @@ tests-cov: tests
 	$(DENO) coverage cov_profile --lcov > cov_profile/cov.lcov
 
 fmt:
-	$(DENO) fmt rusn.mjs tests
+	$(DENO) fmt *.mjs
 
 fmt-check:
-	$(DENO) fmt rusn.mjs tests --check
+	$(DENO) fmt *.mjs --check
 
 clean:
 	rm -rf cov_profile
