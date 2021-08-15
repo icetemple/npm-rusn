@@ -8,6 +8,7 @@
   "readme": "README.md",
   "scripts": {
     "test": "deno test --coverage=coverage tests",
+    "fmt": "deno fmt rusn.mjs tests",
     "report-coverage": "deno coverage --lcov | coveralls"
   },
   "repository": {
@@ -15,12 +16,10 @@
     "url": "git+https://github.com/icetemple/npm-rusn.git"
   },
   "keywords": [
-    "gettext",
-    "ngettext",
+    "plural",
+    "pluralize",
     "russian",
-    "plural-form",
-    "singular-form",
-    "icetemple"
+    "rus"
   ],
   "author": "Dmitriy Pleshevskiy <dmitriy@ideascup.me>",
   "license": "MIT",
