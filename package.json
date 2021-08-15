@@ -7,9 +7,9 @@
   "types": "./rusn.d.ts",
   "readme": "README.md",
   "scripts": {
-    "test": "deno test --coverage=coverage tests",
+    "test": "deno test --coverage=cov_profile tests",
     "fmt": "deno fmt rusn.mjs tests",
-    "report-coverage": "deno coverage --lcov | coveralls"
+    "report-coverage": "deno coverage cov_profile --lcov | coveralls"
   },
   "repository": {
     "type": "git",
