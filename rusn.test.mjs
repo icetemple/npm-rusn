@@ -1,5 +1,5 @@
 import { assertEquals } from "https://deno.land/std@0.104.0/testing/asserts.ts";
-import { rusPluralize } from "../rusn.mjs";
+import { rusPluralize } from "./rusn.mjs";
 
 const Jars = ["банка", "банки", "банок"];
 // deno-fmt-ignore

@@ -7,7 +7,7 @@
   "types": "./rusn.d.ts",
   "readme": "README.md",
   "scripts": {
-    "test": "deno test --coverage=cov_profile tests",
+    "test": "deno test --coverage=cov_profile *.test.mjs",
     "fmt": "deno fmt rusn.mjs tests",
     "report-coverage": "deno coverage cov_profile --lcov | coveralls"
   },
