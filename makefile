@@ -1,6 +1,6 @@
 DENO := deno
 
-tests: fmt-check
+tests: clean fmt-check
 	$(DENO) test --coverage=cov_profile *.test.mjs
 
 tests-cov: tests
@@ -11,3 +11,6 @@ fmt:
 
 fmt-check:
 	$(DENO) fmt rusn.mjs tests --check
+
+clean:
+	rm -rf cov_profile
