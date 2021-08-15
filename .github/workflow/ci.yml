@@ -23,4 +23,4 @@ jobs:
       - run: npm install
       - run: npm run fmt -- --check
       - run: npm test
-      - run: npm report-coverage
+      - run: npm run report-coverage
