@@ -1,3 +1,5 @@
+/// <reference types="./rusn.d.ts" />
+
 export function rusPluralize(number, forms) {
   if (typeof forms === "string") {
     return forms;
